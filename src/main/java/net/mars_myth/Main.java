@@ -1,6 +1,6 @@
 package net.mars_myth;
 
-import net.mars_myth.conversion.USDollarConvert;
+
 import net.mars_myth.simple.ThreeNumberSimple;
 import net.mars_myth.simple.TwoNumberSimple;
 import static net.mars_myth.alternative.MainInstances.*;
@@ -46,19 +46,6 @@ public class Main {
             }
 
         } else if (type.equals("Advanced")){
-
-        } else if (type.equals("Money")){
-
-            System.out.println(spacer);
-            System.out.println(ConvertWelcome);
-            System.out.println(ConvertExample);
-            System.out.println(spacer);
-            System.out.println(ConvertQuestion);
-            String currency = scanner.next();
-
-            if (currency.equals("USD")) {
-                USDollarConvert.questioning();
-            }
 
         } else if (type.equals("Prism")){
 
